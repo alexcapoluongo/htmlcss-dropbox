@@ -16,15 +16,25 @@ html{
     clear:both;
 }
 
+a{
+    text-decoration: none;
+}
+
 /* common button */
 
 .button{
   background-color:#0861ff;
-  padding-bottom: 4px;
+  padding: 4px 5px 4px;
+  text-align: center;
+  vertical-align: middle;
 }
 
 .button a{
     color:white !important;
+}
+
+.button-long{
+    width:70%;
 }
 
 /* HEADER */
@@ -100,7 +110,7 @@ vertical-align: middle;
 /* jumpotron */
 
 .jumpotron{
-    background-color: #0861ff;
+    background-color: #b4d0e7;
     height:500px;
     text-align: center;
 }
@@ -108,9 +118,11 @@ vertical-align: middle;
 .title-jumpotron{
     height:30%;
     border:2px solid red;
-    margin-bottom:5%;
     padding-top:5%;
+}
 
+.title-jumpotron h1{
+    font-size: 3em;
 }
 
 .col-text-jumpotron{
@@ -118,12 +130,41 @@ vertical-align: middle;
     border:2px greenyellow solid;
     display: inline-block;
     height:200px;
+    vertical-align:top;
 }
 
+.text-jumpotron{
+    width: 70%;
+    padding-left: 10%;
+    text-align: left;
+}
+
+.text-jumpotron p{
+    margin-bottom:5%;
+}
+
+.annulla-iscrizione{
+    font-size: .8em;
+    margin-top:1em;
+    margin-bottom:3em;
+    display:block;
+}
+
+.arrow-down a{
+    font-size:3em;
+    color:black;
+    font-weight: bold;
+}
+
+/* jumpotron img */
 .col-img-jumpotron{
-    width:60%;
+    width:50%;
     border:2px green solid;
     display: inline-block;
     height:200px;
 
+}
+
+.col-img-jumpotron img{
+    width:100%;
 }
