@@ -95,5 +95,35 @@ padding-right:5px;
 vertical-align: middle;
 }
 
+/* MAIN */
 
+/* jumpotron */
 
+.jumpotron{
+    background-color: #0861ff;
+    height:500px;
+    text-align: center;
+}
+
+.title-jumpotron{
+    height:30%;
+    border:2px solid red;
+    margin-bottom:5%;
+    padding-top:5%;
+
+}
+
+.col-text-jumpotron{
+    width:38%;
+    border:2px greenyellow solid;
+    display: inline-block;
+    height:200px;
+}
+
+.col-img-jumpotron{
+    width:60%;
+    border:2px green solid;
+    display: inline-block;
+    height:200px;
+
+}
