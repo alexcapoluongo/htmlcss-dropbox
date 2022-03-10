@@ -5,7 +5,7 @@
     box-sizing:border-box;
 }
 
-/* common */
+/* COMMON */
 html{
     font-family: 'Open Sans', sans-serif;
 }
@@ -16,8 +16,20 @@ html{
     clear:both;
 }
 
+/* common button */
+
+.button{
+  background-color:#0861ff;
+  padding-bottom: 4px;
+}
+
+.button a{
+    color:white !important;
+}
+
 /* HEADER */
 
+/* menu structure */
 .menu{
     height:60px;
     background-color: aqua;
@@ -34,9 +46,12 @@ html{
 
 .menu-col li{
     display: inline-block;
-    line-height: 60px;
     border:2px solid violet;
     width:calc(100% / 4 - 10px);
+    height:60px;
+    padding-top: 15px;
+    vertical-align: middle;
+
 }
 
 .menu-left ul{
@@ -46,3 +61,39 @@ html{
 .menu-right ul{
     padding-left:30%;
 }
+
+/* structure menu right */
+
+.menu-right li:nth-child(1){
+    width:20%;
+}
+
+.menu-right li:nth-child(2){
+    width:40%;
+}
+
+.menu-right li:nth-child(3){
+    width:15%;
+}
+
+.menu-right li:nth-child(4){
+    width:15%;
+}
+
+/* menu content */
+
+.menu li a{
+    font-size: 13px;
+    vertical-align: middle;
+    text-decoration: none;
+    color:black;
+}
+
+.menu li img{
+width:100%;
+padding-right:5px;
+vertical-align: middle;
+}
+
+
+
