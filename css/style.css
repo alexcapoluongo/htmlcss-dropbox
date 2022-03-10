@@ -27,6 +27,14 @@ a{
     border:2px solid red;
 }
 
+.subtitle{
+    /* height:100px; */
+    padding: 20px;
+}
+
+.subtitle h2{
+    text-align: center;
+}
 /* common button */
 
 .button{
@@ -44,17 +52,18 @@ a{
     width:70%;
 }
 
+.button-iscrizione{
+    margin:40px auto 40px;
+}
 /* HEADER */
 
 /* menu structure */
 .menu{
     height:60px;
-    background-color: aqua;
     text-align: center;
 }
 
 .menu-col{
-    border: 2px solid green;
     width:calc(50% - 10px);
     height:60px;
     display: inline-block;
@@ -63,7 +72,6 @@ a{
 
 .menu-col li{
     display: inline-block;
-    border:2px solid violet;
     width:calc(100% / 4 - 10px);
     height:60px;
     padding-top: 15px;
@@ -125,7 +133,6 @@ vertical-align: middle;
 
 .title-jumpotron{
     height:30%;
-    border:2px solid red;
     padding-top:5%;
 }
 
@@ -135,7 +142,6 @@ vertical-align: middle;
 
 .col-text-jumpotron{
     width:38%;
-    border:2px greenyellow solid;
     display: inline-block;
     height:200px;
     vertical-align:top;
@@ -151,7 +157,7 @@ vertical-align: middle;
     margin-bottom:5%;
 }
 
-.annulla-iscrizione{
+.small-subtitle{
     font-size: .8em;
     margin-top:1em;
     margin-bottom:3em;
@@ -167,7 +173,6 @@ vertical-align: middle;
 /* jumpotron img */
 .col-img-jumpotron{
     width:50%;
-    border:2px green solid;
     display: inline-block;
     height:200px;
 
@@ -183,18 +188,12 @@ vertical-align: middle;
     height:500px;
 }
 
-.subtitle{
-    height:100px;
-    background-color: aqua;
-}
-
 .scegli-fatturazione{
-    height:80px;
-    background-color: blue;
+    padding-bottom:30px;
 }
 
 .scegli-iscrizione{
-    text-align: center;
+    margin-left:40px;
 }
 
 .col-iscrizione{
@@ -205,15 +204,33 @@ vertical-align: middle;
 }
 
 .intestazione-iscrizione{
-    background-color: yellowgreen;
-    height:10%
+    padding:10px;
 }
 .col-iscrizione-top{
-    height:50%;
     background-color: brown;
 }
 
 .col-iscrizione-down{
     height:45%;
     background-color: darkkhaki;
+}
+
+.iscrizione-top-1{
+    margin-bottom:50px;
+}
+
+/* iscrizione content */
+
+.radio-button{
+    padding-left:20px;
+    font-size: .8em;
+}
+
+.col-iscrizione ul{
+    list-style: none;
+}
+
+.acquista-ora{
+    color:#0861ff;
+    text-decoration: underline;
 }
