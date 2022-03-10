@@ -24,7 +24,7 @@ a{
     width:80%;
     margin:0 auto;
     /* TEST */
-    border:2px solid red;
+    /* border:2px solid red; */
 }
 
 .subtitle{
@@ -197,22 +197,26 @@ vertical-align: middle;
 }
 
 .col-iscrizione{
-    border:3px orange solid;
+    border:1px black solid;
     width:calc(100% / 3 - 20px);
     height:400px;
     display: inline-block;
+    vertical-align: top;
 }
 
 .intestazione-iscrizione{
     padding:10px;
+    border-bottom:1px solid black;
 }
 .col-iscrizione-top{
-    background-color: brown;
-}
+    padding-top:10px;
+    padding-left: 10px;
+} 
 
 .col-iscrizione-down{
     height:45%;
-    background-color: darkkhaki;
+    line-height: 3em;
+    padding-bottom:20%;
 }
 
 .iscrizione-top-1{
@@ -234,3 +238,18 @@ vertical-align: middle;
     color:#0861ff;
     text-decoration: underline;
 }
+
+.col-iscrizione .tempo-iscrizione{
+    color:gray;
+    font-size: .8em;
+}
+
+.col-iscrizione-down li::before{
+    content:"\2713";
+    color:#0861ff;
+}
+
+.col-iscrizione-down li:first-child::before{
+    content:none !important;
+}
+
