@@ -20,6 +20,13 @@ a{
     text-decoration: none;
 }
 
+.container{
+    width:80%;
+    margin:0 auto;
+    /* TEST */
+    border:2px solid red;
+}
+
 /* common button */
 
 .button{
@@ -113,6 +120,7 @@ vertical-align: middle;
     background-color: #b4d0e7;
     height:500px;
     text-align: center;
+    margin-bottom: 200px;
 }
 
 .title-jumpotron{
@@ -167,4 +175,45 @@ vertical-align: middle;
 
 .col-img-jumpotron img{
     width:100%;
+}
+
+/* iscrizione */
+
+.iscrizione{
+    height:500px;
+}
+
+.subtitle{
+    height:100px;
+    background-color: aqua;
+}
+
+.scegli-fatturazione{
+    height:80px;
+    background-color: blue;
+}
+
+.scegli-iscrizione{
+    text-align: center;
+}
+
+.col-iscrizione{
+    border:3px orange solid;
+    width:calc(100% / 3 - 20px);
+    height:400px;
+    display: inline-block;
+}
+
+.intestazione-iscrizione{
+    background-color: yellowgreen;
+    height:10%
+}
+.col-iscrizione-top{
+    height:50%;
+    background-color: brown;
+}
+
+.col-iscrizione-down{
+    height:45%;
+    background-color: darkkhaki;
 }
