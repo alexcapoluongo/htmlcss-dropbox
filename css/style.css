@@ -1,0 +1,48 @@
+/* reset */
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+/* common */
+html{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.clearfix::after{
+    content:"";
+    display: table;
+    clear:both;
+}
+
+/* HEADER */
+
+.menu{
+    height:60px;
+    background-color: aqua;
+    text-align: center;
+}
+
+.menu-col{
+    border: 2px solid green;
+    width:calc(50% - 10px);
+    height:60px;
+    display: inline-block;
+
+}
+
+.menu-col li{
+    display: inline-block;
+    line-height: 60px;
+    border:2px solid violet;
+    width:calc(100% / 4 - 10px);
+}
+
+.menu-left ul{
+    padding-right:30%;
+}
+
+.menu-right ul{
+    padding-left:30%;
+}
