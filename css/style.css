@@ -43,22 +43,32 @@ a{
 /* common button */
 
 .button{
-  background-color:#0861ff;
-  padding: 4px 5px 4px;
+  padding: 4px;
   text-align: center;
   vertical-align: middle;
+  display: inline-block;
 }
 
-.button a{
+.button-blue{
+    background-color:#0861ff;
+}
+.button-blue a{
     color:white !important;
 }
 
-.button-long{
-    width:70%;
-}
 
 .button-iscrizione{
     margin:40px auto 40px;
+} 
+
+.button-white{
+    background-color: white;
+    border: 1px solid black;
+    margin-top:20px;
+}
+
+.button-white a{
+    color:black;
 }
 
 .col-enterprise-right .button-iscrizione{
@@ -289,18 +299,22 @@ vertical-align: middle;
 
 /* contatto partner */
 
-.partner{
-    border: 3px violet solid;
-}
+
 .col-partner-img{
     width:48%;
-    background-color: aliceblue;
-    height:200px;
-    float:left;
+    display: inline-block;
 }
 
+.col-partner-img img{
+    width:100%;
+}
 .col-partner-text{
     width:50%;
-    background-color: red;
-    height:200px;
+    float: right;
+    display: inline-block;
+}
+
+.col-partner-text h2{
+    margin-top:20px;
+    margin-bottom:20px;
 }
