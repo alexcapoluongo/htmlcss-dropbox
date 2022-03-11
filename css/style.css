@@ -199,7 +199,6 @@ vertical-align: middle;
 .col-iscrizione{
     border:1px black solid;
     width:calc(100% / 3 - 20px);
-    height:400px;
     display: inline-block;
     vertical-align: top;
 }
@@ -207,6 +206,7 @@ vertical-align: middle;
 .intestazione-iscrizione{
     padding:10px;
     border-bottom:1px solid black;
+    text-align: center;
 }
 .col-iscrizione-top{
     padding-top:10px;
@@ -217,6 +217,28 @@ vertical-align: middle;
     height:45%;
     line-height: 3em;
     padding-bottom:20%;
+}
+
+.col-enterprise{
+    width:100%;
+    margin-top: 10%;
+}
+
+.col-enterprise-left{
+    height:200px;
+    background-color: aquamarine;
+    width:70%;
+    display: inline-block;
+}
+
+.col-enterprise-right{
+    height:200px;
+    background-color: brown;
+    width:calc(30% - 10px);
+    display: inline-block;
+
+
+
 }
 
 .iscrizione-top-1{
