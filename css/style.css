@@ -310,11 +310,48 @@ vertical-align: middle;
 }
 .col-partner-text{
     width:50%;
-    float: right;
+    float:right;
     display: inline-block;
 }
 
 .col-partner-text h2{
     margin-top:20px;
     margin-bottom:20px;
+}
+
+/* business operations */
+
+.business{
+    margin-top:10%;
+}
+
+.container-operations{
+    height:1000px;
+    border:5px solid green;
+}
+
+.row-1-operations{
+    height:50%;
+    background-color: aqua;
+}
+.row-2-operations{
+    height:50%;
+    background-color: chartreuse;
+}
+
+.block-row{
+    border:2px solid black;
+    height:100%;
+    width: calc(100% / 3 );
+    float:left;
+}
+
+.img-block-row{
+    height:50%;
+    border:1px solid red;
+}
+
+.text-block-row{
+    height:50%;
+    border:1px solid yellow;
 }
