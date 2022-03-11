@@ -55,6 +55,10 @@ a{
 .button-iscrizione{
     margin:40px auto 40px;
 }
+
+.col-enterprise-right .button-iscrizione{
+    margin-top:5px;
+}
 /* HEADER */
 
 /* menu structure */
@@ -225,20 +229,14 @@ vertical-align: middle;
 }
 
 .col-enterprise-left{
-    height:200px;
-    background-color: aquamarine;
     width:70%;
     display: inline-block;
 }
 
 .col-enterprise-right{
-    height:200px;
-    background-color: brown;
     width:calc(30% - 10px);
     display: inline-block;
-
-
-
+    vertical-align:top;
 }
 
 .iscrizione-top-1{
@@ -275,3 +273,10 @@ vertical-align: middle;
     content:none !important;
 }
 
+.col-enterprise-left h4{
+    margin-top: 10px;
+}
+
+.col-enterprise-left p{
+    margin-top: 20px;
+}
