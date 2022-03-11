@@ -20,11 +20,16 @@ a{
     text-decoration: none;
 }
 
+.container-jumbotron{
+    width:90%;
+    margin:0 auto;
+}
+
 .container{
     width:80%;
     margin:0 auto;
     /* TEST */
-    /* border:2px solid red; */
+    border:2px solid red;
 }
 
 .subtitle{
@@ -226,6 +231,7 @@ vertical-align: middle;
 .col-enterprise{
     width:100%;
     margin-top: 10%;
+    margin-bottom:10%;
 }
 
 .col-enterprise-left{
@@ -279,4 +285,22 @@ vertical-align: middle;
 
 .col-enterprise-left p{
     margin-top: 20px;
+}
+
+/* contatto partner */
+
+.partner{
+    border: 3px violet solid;
+}
+.col-partner-img{
+    width:48%;
+    background-color: aliceblue;
+    height:200px;
+    float:left;
+}
+
+.col-partner-text{
+    width:50%;
+    background-color: red;
+    height:200px;
 }
