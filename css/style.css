@@ -325,33 +325,34 @@ vertical-align: middle;
     margin-top:10%;
 }
 
-.container-operations{
-    height:1000px;
-    border:5px solid green;
-}
 
 .row-1-operations{
     height:50%;
-    background-color: aqua;
+    /* background-color: aqua; */
+    display: inline-block;
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
 .row-2-operations{
     height:50%;
-    background-color: chartreuse;
 }
 
 .block-row{
-    border:2px solid black;
     height:100%;
     width: calc(100% / 3 );
     float:left;
+
 }
 
 .img-block-row{
-    height:50%;
-    border:1px solid red;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
 }
 
-.text-block-row{
-    height:50%;
-    border:1px solid yellow;
+.img-block-row img{
+    width:100%;
 }
+
+
