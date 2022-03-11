@@ -29,7 +29,7 @@ a{
     width:80%;
     margin:0 auto;
     /* TEST */
-    border:2px solid red;
+    /* border:2px solid red; */
 }
 
 .subtitle{
@@ -350,6 +350,57 @@ vertical-align: middle;
 
 .img-block-row img{
     width:100%;
+}
+
+/* utenti */
+
+.utenti{
+    height:300px;
+    background-color: aquamarine;
+    
+}
+
+.col-left-utenti{
+    width: 25%;
+    height: 250px;
+    border: 2px solid orange;
+    display:inline-block;
+    float:left;
+
+}
+
+.col-center-utenti{
+    display:inline-block;
+    float:left;
+    width:50%;
+
+}
+
+.col-right-utenti{
+    width: 25%;
+    height:250px;
+    border: 2px solid orange;
+    display:inline-block;
+    float:left;
+}
+
+.row-1-utenti{
+    height:50%;
+    border: 2px solid firebrick;
+
+}
+
+.row-2-utenti{
+    height:50%;
+    border: 2px solid firebrick;
+
+}
+
+.block-company{
+    width:calc(100% / 3);
+    height:100%;
+    border:1px solid black;
+    display:inline-block;
 }
 
 
