@@ -515,6 +515,7 @@ vertical-align: middle;
 
 .faq li:last-child{
     border-bottom:1px solid lightgray;
+    margin-bottom:50px;
 
 }
 
@@ -534,7 +535,6 @@ vertical-align: middle;
     width:calc(20% - 5px);
     padding-top:100px;
     padding-bottom:100px;
-    border: 2px solid white;
     display:inline-block;
 }
 
@@ -556,4 +556,12 @@ vertical-align: middle;
     font-weight: bold;
     color:white;
 
+}
+
+.footer-bottom{
+    color:white;
+}
+
+.language{
+    font-size:.8em;
 }
