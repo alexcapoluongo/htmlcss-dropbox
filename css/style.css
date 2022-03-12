@@ -478,20 +478,47 @@ vertical-align: middle;
 /* prova gratuita */
 
 .prova-gratuita{
-    height:400px;
+    height:500px;
     background-color:#b3d0e7 ;
-    margin-bottom:20px;
 }
 
 .col-left-gratis{
     border:2px solid red;
     width:60%;
     display:inline-block;
-
+    margin-top:100px;
+    float:left;
 }
 
 .col-right-gratis{
     border:2px solid red;
     width:calc(40% - 10px);
     display:inline-block;
+    margin-top:100px;
+}
+
+/* faq */
+
+.faq h1{
+    padding-top:10%;
+    padding-bottom:30px;
+}
+
+.faq ul{
+    list-style:none;
+    line-height: 3em;
+}
+
+.faq li{
+    border-top:1px solid lightgray;
+}
+
+.faq li:last-child{
+    border-bottom:1px solid lightgray;
+
+}
+
+.arrow-down-li{
+    float:right;
+    margin-right:20px;
 }
