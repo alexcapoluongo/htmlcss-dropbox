@@ -371,7 +371,7 @@ vertical-align: middle;
 
 .col-left-utenti{
     width: 25%;
-    height: 300px;
+    height: 150px;
     display:inline-block;
     float:left;
 
@@ -401,10 +401,13 @@ vertical-align: middle;
 
 .col-right-utenti{
     width: 25%;
-    height:300px;
+    height:150px;
     display:inline-block;
     float:left;
 }
+
+/*
+
 
 /* .row-1-utenti{
     height:50%;
@@ -417,15 +420,6 @@ vertical-align: middle;
     border: 2px solid firebrick;
 
 } */
-
-/* .block-company{
-    width:calc(100% / 3);
-    height:100%;
-    border:1px solid black;
-    display:inline-block;
-} */
-
-
 .block-company{
     width:50%;
     height:150px;
@@ -442,7 +436,12 @@ vertical-align: middle;
     margin-top: 50px;
 }
 
-/* blocks */
+.block-company{
+    height:100%;
+    border:1px solid black;
+    display:inline-block;
+
+}
 
 #block1-utenti{
     background-color: #a2d39b;
@@ -476,3 +475,23 @@ vertical-align: middle;
     background-color: #ffd72f;
 }
 
+/* prova gratuita */
+
+.prova-gratuita{
+    height:400px;
+    background-color:#b3d0e7 ;
+    margin-bottom:20px;
+}
+
+.col-left-gratis{
+    border:2px solid red;
+    width:60%;
+    display:inline-block;
+
+}
+
+.col-right-gratis{
+    border:2px solid red;
+    width:calc(40% - 10px);
+    display:inline-block;
+}
