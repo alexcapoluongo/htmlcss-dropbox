@@ -168,12 +168,29 @@ header{
     vertical-align: middle;
     text-decoration: none;
     color:black;
+    position:relative;
 }
 
 .menu li img{
-width:100%;
-padding-right:5px;
-vertical-align: middle;
+    width:100%;
+    padding-right:5px;
+    vertical-align: middle;
+}
+
+.under-li-menu{
+    border:3px red solid;
+    background-color: white;
+    display:none;
+    position:absolute;
+    z-index:1;
+}
+
+.under-li-menu li{
+    display:inline-block;
+}
+
+.menu li:hover .under-li-menu{
+    display: block;
 }
 
 /* MAIN */
@@ -533,7 +550,6 @@ margin-bottom: 20px;
 .block-company{
     height:100%;
     display:inline-block;
-
 }
 
 #block1-utenti{
@@ -614,7 +630,7 @@ margin-bottom: 20px;
 
 }
 
-.under-li{
+.under-li-faq{
     border:3px red solid;
     background-color: white;
     display:none;
@@ -622,7 +638,7 @@ margin-bottom: 20px;
     z-index:1;
 }
 
-.faq li:hover .under-li{
+.faq li:hover .under-li-faq{
     display:block;
 }
 
@@ -661,21 +677,17 @@ margin-bottom: 20px;
 
 .col-footer li a{
     color:white;
-
 }
-
 
 .footer h3{
     margin-bottom:20px;
     font-weight: bold;
     color:white;
-
 }
 
 .footer-bottom{
     color:white;
     padding-top:30px;
-
 }
 
 .language{
