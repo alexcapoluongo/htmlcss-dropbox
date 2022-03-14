@@ -20,6 +20,11 @@ a{
     text-decoration: none;
 }
 
+h1, h2, h3{
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
 .container-jumbotron{
     width:90%;
     margin:0 auto;
@@ -43,10 +48,9 @@ a{
 /* common button */
 
 .button{
-  padding: 4px;
-  text-align: center;
-  vertical-align: middle;
-  display: inline-block;
+    padding: 5px 15px 5px;
+    text-align: center;
+    display: inline-block;
 }
 
 .button-blue{
@@ -74,9 +78,25 @@ a{
 .col-enterprise-right .button-iscrizione{
     margin-top:5px;
 }
+
+#button-inizia{
+    padding-left: 15px;
+    padding-right:15px;
+    padding-bottom: 5px;
+    text-align: center;
+    display: inline-block;
+
+}
+
 /* HEADER */
 
 /* menu structure */
+
+header{
+    background: white;
+    position: fixed;
+    width: 100%;
+}
 .menu{
     height:60px;
     text-align: center;
@@ -145,18 +165,31 @@ vertical-align: middle;
 
 .jumpotron{
     background-color: #b4d0e7;
-    height:500px;
+    height:600px;
     text-align: center;
     margin-bottom: 200px;
+}
+
+.container-jumbotron{
+    padding-top:60px;
+}
+
+.content-jumpotron{
+ margin-top:20px;
 }
 
 .title-jumpotron{
     height:30%;
     padding-top:5%;
+    width:80%;
 }
 
 .title-jumpotron h1{
     font-size: 3em;
+    font-family: sans-serif;
+    font-weight: bolder;
+    padding-bottom: 20px;
+    text-align: left;
 }
 
 .col-text-jumpotron{
@@ -164,11 +197,10 @@ vertical-align: middle;
     display: inline-block;
     height:200px;
     vertical-align:top;
+    float:left;
 }
 
 .text-jumpotron{
-    width: 70%;
-    padding-left: 10%;
     text-align: left;
 }
 
@@ -183,10 +215,8 @@ vertical-align: middle;
     display:block;
 }
 
-.arrow-down a{
-    font-size:3em;
-    color:black;
-    font-weight: bold;
+.arrow-down{
+    font-size:40px;
 }
 
 /* jumpotron img */
@@ -214,9 +244,10 @@ vertical-align: middle;
 
 .col-iscrizione{
     border:1px black solid;
-    width:calc(100% / 3 - 20px);
+    width:calc(100% / 3 - 40px);
     display: inline-block;
     vertical-align: top;
+    margin-left:20px;
 }
 
 .intestazione-iscrizione{
@@ -226,13 +257,15 @@ vertical-align: middle;
 }
 .col-iscrizione-top{
     padding-top:10px;
-    padding-left: 10px;
+    padding: 10px;
 } 
 
 .col-iscrizione-down{
     height:45%;
     line-height: 3em;
     padding-bottom:20%;
+    padding: 10px;
+
 }
 
 .col-enterprise{
@@ -244,12 +277,16 @@ vertical-align: middle;
 .col-enterprise-left{
     width:70%;
     display: inline-block;
+    padding: 20px;
+
 }
 
 .col-enterprise-right{
     width:calc(30% - 10px);
     display: inline-block;
     vertical-align:top;
+    padding: 20px;
+
 }
 
 .iscrizione-top-1{
