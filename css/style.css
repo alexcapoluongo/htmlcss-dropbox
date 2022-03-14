@@ -402,6 +402,7 @@ margin-bottom: 20px;
     height:100%;
     width: calc(100% / 3 );
     float:left;
+    padding:50px;
 
 }
 
