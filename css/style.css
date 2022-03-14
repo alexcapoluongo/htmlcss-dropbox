@@ -369,6 +369,7 @@ margin-bottom: 20px;
     width:100%;
 }
 .col-partner-text{
+    padding-left:20px;
     width:50%;
     float:right;
     display: inline-block;
