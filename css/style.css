@@ -63,11 +63,14 @@ h1, h2, h3{
 .button-white{
     background-color: white;
     border: 1px solid black;
-    margin-top:20px;
 }
 
 .button-white a{
     color:black;
+}
+
+#button-white-partner{
+    margin-top:20px;
 }
 
 .col-enterprise-right .button-iscrizione{
@@ -553,15 +556,17 @@ margin-bottom: 20px;
 }
 
 .col-left-gratis{
-    border:2px solid red;
     width:60%;
     display:inline-block;
     margin-top:100px;
     float:left;
 }
 
+.col-left-gratis h1{
+    color:#61082b;
+}
+
 .col-right-gratis{
-    border:2px solid red;
     width:calc(40% - 10px);
     display:inline-block;
     margin-top:100px;
