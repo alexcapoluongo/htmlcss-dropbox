@@ -37,14 +37,7 @@ h1, h2, h3{
     /* border:2px solid red; */
 }
 
-.subtitle{
-    /* height:100px; */
-    padding: 20px;
-}
 
-.subtitle h2{
-    text-align: center;
-}
 /* common button */
 
 .button{
@@ -235,7 +228,12 @@ vertical-align: middle;
 
 
 .scegli-fatturazione{
+    padding-top:40px;
     padding-bottom:30px;
+}
+
+input[type=radio]#annuale {
+ margin-left:20px;
 }
 
 .scegli-iscrizione{
