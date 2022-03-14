@@ -410,11 +410,11 @@ margin-bottom: 20px;
     background-size:cover;
     background-position: center;
     background-repeat: no-repeat;
-
 }
 
-.img-block-row img{
+.block-company img{
     width:100%;
+    filter:invert(1);  
 }
 
 /* utenti */
@@ -493,13 +493,18 @@ margin-bottom: 20px;
 
 }
 
+.img-company{
+    line-height:150px;
+}
+
 .block-company img{
     width:65%;
     margin-left:0 auto;
     /* height:40%; */
     text-align: center;
-    margin-top: 50px;
+    vertical-align: middle;
 }
+
 
 .block-company{
     height:100%;
