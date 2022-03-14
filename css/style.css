@@ -56,6 +56,8 @@ h1, h2, h3{
 
 .button-iscrizione{
     margin:40px auto 40px;
+    display: block;
+    text-align: center;
 } 
 
 .button-white{
@@ -237,15 +239,30 @@ input[type=radio]#annuale {
 }
 
 .scegli-iscrizione{
-    margin-left:40px;
+    display: inline-block;
 }
 
 .col-iscrizione{
     border:1px black solid;
-    width:calc(100% / 3 - 40px);
+    width:calc(100% / 3 - 20px);
     display: inline-block;
     vertical-align: top;
-    margin-left:20px;
+    min-height:1000px;
+}
+
+
+.col-iscrizione:first-child{
+    float:left;
+    margin-right:30px;
+}
+
+.col-iscrizione:last-child{
+    float:left;
+}
+.col-iscrizione:nth-child(2){
+    float:left;
+    margin-right:30px;
+
 }
 
 .intestazione-iscrizione{
@@ -253,23 +270,30 @@ input[type=radio]#annuale {
     border-bottom:1px solid black;
     text-align: center;
 }
+
+
 .col-iscrizione-top{
     padding-top:10px;
-    padding: 10px;
+    padding: 20px;
 } 
 
 .col-iscrizione-down{
     height:45%;
-    line-height: 3em;
     padding-bottom:20%;
-    padding: 10px;
+    padding: 20px;
 
+}
+
+.col-iscrizione-down li{
+margin-top:20px;
+margin-bottom: 20px;
 }
 
 .col-enterprise{
     width:100%;
     margin-top: 10%;
     margin-bottom:10%;
+    border:1px solid black;
 }
 
 .col-enterprise-left{
@@ -307,6 +331,10 @@ input[type=radio]#annuale {
     text-decoration: underline;
 }
 
+.buynow{
+    border:1px solid lightgrey;
+    width:80px;
+}
 .col-iscrizione .tempo-iscrizione{
     color:gray;
     font-size: .8em;
