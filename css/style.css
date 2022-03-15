@@ -168,7 +168,6 @@ header{
     vertical-align: middle;
     text-decoration: none;
     color:black;
-    position:relative;
 }
 
 .menu li img{
@@ -181,12 +180,11 @@ header{
     border:3px red solid;
     background-color: white;
     display:none;
-    position:absolute;
     z-index:1;
 }
 
-.under-li-menu li{
-    display:inline-block;
+.under-li-menu li{ 
+    display: block;
 }
 
 .menu li:hover .under-li-menu{
